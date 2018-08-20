@@ -2,8 +2,8 @@
 
     public static void main(String[] args) {
 		try {
-		    Runtime.
-			getRuntime()
+		    Runtime
+			.getRuntime()
 			     .exec("cmd /c start \"\"  d:\\test.bat");
 		} catch (IOException e) {
 		    e.printStackTrace();
